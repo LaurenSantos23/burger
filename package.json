@@ -1,0 +1,23 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "This app is a \"burger logger\" which utilizes MySQL, Node, Express, Handlebars and my own ORM.  It is built following the MVC design pattern and deployed to Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurenSantos23/burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaurenSantos23/burger/issues"
+  },
+  "homepage": "https://github.com/LaurenSantos23/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
