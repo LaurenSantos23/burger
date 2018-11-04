@@ -1,23 +1,20 @@
-const express = require('express');
-const db = require('./models');
-const app = express();
+var express = require('express');
+var app = express();
 
 app.use(express.static('public'));
 app.use(express.urlencoded({extended: true }));
 app.use(express.json());
 
-const exphbs = require('express-handlebars');
+var exphbs = require('express-handlebars');
 app.engine('handlebars', exphbs({
     defaultLayout: "main"
 }));
 app.set('view engine', 'handlebars');
 
-const routes = require('./controllers/burgers_controller');
-app.use(route);
+var routes = require('./controllers/burgers_controller.js');
+app.use(routes);
 
-const port = process.env.PORT || 3000
-db.sequelize.sync().then(() => (
- app.listen(port, () => (
+var port = process.env.PORT || 8000
+app.listen(port, () => (
   console.log('app now listening on port',port)   
  ))   
-))

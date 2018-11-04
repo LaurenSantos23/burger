@@ -1,12 +1,13 @@
 // Set up MySQL connection
-var sql = require('mysql');
+var mysql = require("mysql");
 
 var connection = mysql.createConnection({
     host: 'localhost',
-    port: 3000,
+    port: 3306,
     user: root,
     password:"password",
-    database: "burgers_db"
+    database: "burgers_db",
+    // insecureAuth : true,
 
 });
 

@@ -7,7 +7,11 @@ var router = express.Router();
 var burger = require("../models/burgers.js");
 
 // create routes and logic (get, post, put, update, delete)
-
+router.get("/burgers", function(request, response) {
+    burger.selectAll(function(burgerdata){
+        response.render("index", { burger_data: burgerdata})
+    })
+})
 
 
 
