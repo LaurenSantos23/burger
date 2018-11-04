@@ -5,14 +5,14 @@ var connection = require('./connection.js');
 // These are methods you will need in order to retrieve and store data in your database
 selectAll(){
 
-}
+};
 
 
 insertOne(){
 
-}
+};
 
 updateOne(){
 
-}
+};
 module.export = orm;
