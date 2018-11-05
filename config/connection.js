@@ -7,8 +7,6 @@ var connection = mysql.createConnection({
     user: root,
     password:"password",
     database: "burgers_db",
-   insecureAuth : true,
-
 });
 
 // Make connection
