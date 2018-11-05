@@ -25,7 +25,7 @@ var orm = {
                 throw err;
             }
             console.log(res)
-            res.redirect("/")
+            res.redirect("/burgers")
         });
 
     },

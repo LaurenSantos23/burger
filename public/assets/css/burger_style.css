@@ -1,0 +1,18 @@
+html {
+    background-color: #FFC04C;
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+
+#dancing_burger {
+    display: block;
+   margin: auto;
+}
