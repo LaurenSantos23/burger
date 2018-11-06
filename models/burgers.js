@@ -5,21 +5,21 @@ var orm = require('../config/orm.js');
 
 var burgers = {
     selectAll: function(cb) {
-        orm.selectAll("burger_data", function(res){
+        orm.selectAll("burgers", function(res){
             cb(res);
         });
     },
 
     //insertOne function
     insertOne: function(columns, values, cb) {
-        orm.insertOne("burger_data", columns, values, function(res){
+        orm.insertOne("burgers", columns, values, function(res){
             cb(res);
         });
     },
 
     //updateOne function
     updateOne: function(objColVals, updateID, cb) {
-        orm.updateOne("burger_data", objColVals, updateID, function(res){
+        orm.updateOne("burgers", objColVals, updateID, function(res){
             cb(res);
         });
     },  
