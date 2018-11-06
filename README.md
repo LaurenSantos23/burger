@@ -40,7 +40,7 @@ As of 11/5/2018, I am still working on getting my buttons to function.  I need t
 (Link will go here)
   
 ### Link to Deployed Eat Da Burger site on Heroku
-https://git.heroku.com/radiant-anchorage-44444.git
+https://radiant-anchorage-44444.herokuapp.com/
 (This link is not working as of 11/06/2018)
    
 
