@@ -4,14 +4,14 @@
         {{#each burger_data}}
         {{#unless devoured}}
             <li>{{burger_name}}</li>
-            <button type="submit" id="devour-button" data-id={{id}}>Eat-Da-Burger!</button>
+            <button type="submit" id="devour-button" data-id={{id}}>Eat Me!</button>
         {{/unless}}
         {{/each}}
     </ul>
 </div>
 
 <div class="byoburger">
-    <form class="burger-creator" method="POST" action="/insertOne">
+    <form class="burger-creator" method="POST" action="/burgers/create">
         <label>
             Please type your order here to be served!
         </label>
