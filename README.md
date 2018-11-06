@@ -30,16 +30,16 @@ As of 11/5/2018, I am still working on getting my buttons to function.  I need t
 
 ## Screenshots of Site
 
-## Example of Friend Finder Home Page 
+## Example of Eat Da Burger Home Page 
 
 ![Example of Home Screen for Eat Da Burger Site](/public/assets/img/lil-angus.png)
 
 
 
-### Link to Video Walkthrough of Friend Finder Site
+### Link to Video Walkthrough of Eat Da Burger Site
 (Link will go here)
   
-### Link to Deployed Friend Finder site on Heroku
+### Link to Deployed Eat Da Burger site on Heroku
 (Link will go here when deployed)
    
 
