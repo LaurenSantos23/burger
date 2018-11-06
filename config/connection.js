@@ -2,8 +2,8 @@
 var mysql = require("mysql");
 var connection;
 // is this supposed to use the JAWSDB_URL????
-if (process.env. JAWSDB_URL) {
- connection = mysql.createConnection(process.env. JAWSDB_URL);
+if (process.env.JAWSDB_URL) {
+ connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
     host: 'localhost',
