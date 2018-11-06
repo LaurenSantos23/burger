@@ -1,41 +1,38 @@
 <div class="available">
-    <h3>Hi, my name is Lil' Angus!</h3>
-     <div class="byoburger">
-    <form class="burger-creator" method="POST" action="/insertOne">
-        <label>
-            What type of burger would you like to add to the menu?
-        </label>
-        <input type="text" name="new-burger" id="new-burger" placeholder="Ex: Turkey Burger">
-        <button type="submit" id="add-burger">Add to Menu</button>
-    </form>
-</div>
-     <ul>
+    <h3>Here are a few of Lil' Angus' favorite burgers! Click the button to eat da burger!</h3>
+    <ul>
         {{#each burger_data}}
         {{#unless devoured}}
-             <li>{{burger_name}}</li>
-             <button type="submit" id="devour-button" data-id={{id}}>Eat-Da-Burger!</button>
-         {{/unless}}
-         {{/each}}
-     </ul>
- </div>
- 
- <div class="available">
-     <h3>Eaten Burgers</h3>
-     <ul>
-         {{#each burger_data}}
-         {{#if devoured}}
-             <li>{{burger_name}}</li>
-             {{/if}}
-         {{/each}}
+            <li>{{burger_name}}</li>
+            <button type="submit" id="devour-button" data-id={{id}}>Eat-Da-Burger!</button>
+        {{/unless}}
+        {{/each}}
     </ul>
 </div>
- <div class="byoburger">
+
+<div class="byoburger">
     <form class="burger-creator" method="POST" action="/insertOne">
         <label>
-            What type of burger would you like to add to the menu?
+            Please type your order here to be served!
         </label>
-        <input type="text" name="new-burger" id="new-burger" placeholder="Ex: Turkey Burger">
-        <button type="submit" id="add-burger">Add to Menu</button>
+        <input type="text" name="new-burger" id="new-burger" placeholder="Ex: Black Bean Burger">
+        <button type="submit" id="add-burger">Click here to place order!</button>
     </form>
 </div>
- <div class="devoured">
+
+<div class="available">
+    <h3>Eaten Burgers</h3>
+    <ul>
+        {{#each burger_data}}
+        {{#if devoured}}
+            <li>{{burger_name}}</li>
+            {{/if}}
+        {{/each}}
+    </ul>
+</div>
+
+<div class="devoured">
+    <h3>We are sold out of these burgers! Come back another time!</h3>
+    <div class="eaten">
+    </div>
+</div>
