@@ -15,6 +15,7 @@ body {
     display: block;
     margin: auto;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .welcome-msg {
@@ -40,4 +41,6 @@ body {
     text-align: right;
     font-family: 'Peddana', serif;
     color: red;
+    margin-bottom: 10px;
+    /* padding-block-end: 400px; */
 }
