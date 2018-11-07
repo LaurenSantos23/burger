@@ -33,6 +33,7 @@ body {
     font-family: 'Pacifico', cursive;
     color: #d31010;
     display: inline;
+    padding-left: 10px;
 
 }
 .burger-order {
@@ -47,4 +48,6 @@ body {
     font-family: 'Peddana', serif;
     color: red;
     display: inline;
+    padding-right: 10px;
+    margin-right: 10px;
 }
