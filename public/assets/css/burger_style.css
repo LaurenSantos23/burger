@@ -39,14 +39,14 @@ body {
 .burger-order {
     text-align: center;
     font-family: 'Peddana', serif;
-    color: red;
+    color: #d31010;
     margin-top: 5px,
 }
 
 .devoured {
     text-align: right;
-    font-family: 'Peddana', serif;
-    color: red;
+    font-family: 'Pacifico', cursive;
+    color: #d31010;
     display: inline;
     padding-right: 10px;
     margin-right: 10px;
