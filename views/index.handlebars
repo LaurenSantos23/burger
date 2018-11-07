@@ -10,28 +10,31 @@
     </form>
 </div>
 
-<div class="available">
-    <h3>Click the button to eat da burger!</h3>
-    <ul>
-        {{#each burger_data}}
-        {{#unless devoured}}
-            <li>{{burger_name}}</li>
-            <button type="submit" id="devour-button" data-id={{id}}>Eat Me!</button>
-        {{/unless}}
-        {{/each}}
-    </ul>
-</div>
+<div class="bigBurgerDiv">
+    <div class="available">
+        <h3 id="sumbitH3">Click the button to eat da burger!</h3>
+        <ul>
+            {{#each burger_data}}
+            {{#unless devoured}}
+                <li>{{burger_name}}</li>
+                <button type="submit" id="devour-button" data-id={{id}}>Eat Me!</button>
+            {{/unless}}
+            {{/each}}
+        </ul>
+    </div>
 
 
 
-<div class="devoured">
-    <h3>Eaten Burgers</h3>
-    <h3>We are sold out of these burgers! Come back another time!</h3>
-    <ul>
-        {{#each burger_data}}
-        {{#if devoured}}
-            <li>{{burger_name}}</li>
-            {{/if}}
-        {{/each}}
-    </ul>
+    <div class="devoured">
+        <h3 id="eatenH3">Eaten Burgers</h3>
+        <h3>We are sold out of these burgers! Come back another time!</h3>
+        <ul>
+            {{#each burger_data}}
+            {{#if devoured}}
+             <li>{{burger_name}}</li>
+             {{/if}}
+            {{/each}}
+        </ul>
+    </div>
+
 </div>

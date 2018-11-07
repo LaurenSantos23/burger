@@ -22,25 +22,29 @@ body {
     text-align: center;
     font-family: 'Pacifico', cursive;
     color: #d31010;
+}
 
+.bigBurgerDiv {
+    display: inline;
 }
 
 .available {
     text-align: left;
     font-family: 'Pacifico', cursive;
     color: #d31010;
+    display: inline;
 
 }
 .burger-order {
     text-align: center;
     font-family: 'Peddana', serif;
     color: red;
+    margin-top: 5px,
 }
 
 .devoured {
     text-align: right;
     font-family: 'Peddana', serif;
     color: red;
-    margin-bottom: 10px;
-    /* padding-block-end: 400px; */
+    display: inline;
 }
