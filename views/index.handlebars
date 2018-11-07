@@ -1,7 +1,7 @@
 
 <!--this functions not working when I type a burger and sumit it says burger.create is not a function.... in terminal error is in burgers_controller.js-->
 <div class="addBurger">
-    <form class="burger-order" method="POST" action="/burgers/create">
+    <form class="burger-order" method="POST" action="/burgers">
         <label>
             Please type your order here to be served!
         </label>
@@ -11,7 +11,7 @@
 </div>
 
 <div class="available">
-    <h3>Here are a few of Lil' Angus' favorite burgers! Click the button to eat da burger!</h3>
+    <h3>Click the button to eat da burger!</h3>
     <ul>
         {{#each burger_data}}
         {{#unless devoured}}
