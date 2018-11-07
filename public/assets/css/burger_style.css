@@ -9,6 +9,7 @@ body {
    min-height: 100vh;
    flex-direction: column;
    background-color: white;
+   padding: 50px;
 }
 
 #dancing_burger {
@@ -22,6 +23,7 @@ body {
     text-align: center;
     font-family: 'Pacifico', cursive;
     color: #d31010;
+    padding: 30px;
 }
 
 .bigBurgerDiv {
@@ -41,6 +43,7 @@ body {
     font-family: 'Peddana', serif;
     color: #d31010;
     margin-top: 5px,
+    padding: 10px;
 }
 
 .devoured {
