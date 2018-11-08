@@ -28,6 +28,7 @@ body {
 
 .bigBurgerDiv {
     display: inline;
+    
 }
 
 .available {
@@ -36,6 +37,7 @@ body {
     color: #d31010;
     display: inline;
     padding-left: 10px;
+    float:left;
 
 }
 .burger-order {
@@ -53,4 +55,5 @@ body {
     display: inline;
     padding-right: 10px;
     margin-right: 10px;
+    float: right;
 }
