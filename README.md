@@ -32,7 +32,7 @@ As of 11/5/2018, I am still working on getting my buttons to function.  I need t
 
 ## Example of Eat Da Burger Home Page 
 
-![Example of Home Screen for Eat Da Burger Site](/public/assets/img/lil-angus.png)
+![Example of Home Screen for Eat Da Burger Site](/public/assets/img/lil-angus-working.png)
 
 
 
