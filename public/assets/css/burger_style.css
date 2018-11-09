@@ -27,9 +27,9 @@ body {
 }
 
 .bigBurgerDiv {
-    display: inline;
+     display: inline; 
     
-}
+} 
 
 .available {
     text-align: left;
@@ -55,5 +55,5 @@ body {
     display: inline;
     padding-right: 10px;
     margin-right: 10px;
-    float: right;
+    /* float: right; */
 }
