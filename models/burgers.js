@@ -1,7 +1,7 @@
-//Requirements
+// Requirements
 var orm = require('../config/orm.js');
 
-//ORM Functions
+// ORM Functions
 
 var burgers = {
     selectAll: function(cb) {
@@ -10,14 +10,14 @@ var burgers = {
         });
     },
 
-    //insertOne function
+// insertOne function
     insertOne: function(columns, values, cb) {
         orm.insertOne("burgers", columns, values, function(res){
             cb(res);
         });
     },
 
-    //updateOne function
+// updateOne function
     updateOne: function(objColVals, updateID, cb) {
         orm.updateOne("burgers", objColVals, updateID, function(res){
             cb(res);
