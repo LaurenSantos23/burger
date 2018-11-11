@@ -11,10 +11,8 @@ var burgers = {
     },
 
 // insertOne function
-    insertOne: function(columns, values, cb) {
-        orm.insertOne("burgers", columns, values, function(res){
-            cb(res);
-        });
+    insertOne: function(name, cb) {
+        orm.insertOne("burgers", ["burger_name", "devoured"],[name, false],cb) 
     },
 
 // updateOne function

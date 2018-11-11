@@ -17,15 +17,15 @@ var orm = {
      });
     },
 
-    //insertOne function
-    insertOne : function(table, burger_name, devoured) {
+// insertOne function
+  insertOne : function(table, columns, values, cb) {
         var queryString = "INSERT INTO ?? (burger_name, devoured) VALUES (??, ??)";
-        connection.query(queryString, [table, burger_name, devoured], function(err, res){
+        connection.query(queryString, values, function(err, res){
             if (err) {
                 throw err;
             }
             console.log(res)
-            res.redirect("/burgers")
+            cb(res);
         });
 
     },
