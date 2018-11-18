@@ -17,7 +17,7 @@
             {{#each burger_data}}
             {{#unless devoured}}
                 <li>{{burger_name}}</li>
-                <button type="submit" id="devour-button" data-id={{id}}>Eat Me!</button>
+                <button type="submit" class="devour-button" data-id={{id}}>Eat Me!</button>
             {{/unless}}
             {{/each}}
         </ul>

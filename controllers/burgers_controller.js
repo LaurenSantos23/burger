@@ -27,9 +27,9 @@ router.post('/burgers/create', function (req, res) {
   res.redirect('/')
 })
 
-// PUT methodd
-router.put('/burgers/update', function (req, res) {
-  burger.update(req.body.burger_id, function (result) {
+// PUT method
+router.put('/burgers/:id', function (req, res) {
+  burger.updateOne(req.params.id, function (result) {
     console.log(result)
   })
   res.redirect('/')
