@@ -24,8 +24,8 @@ The following NPM Packages are installed to run this app:
 The home page has a welcome message "Welcome to Lil' Angus' Burger Shack". There is a dancing burger gif to represent Lil'Angus.  The user is instructed to type their order into an input area and then "place" the order by clicking the button that says "Click here to place order" Under that there are several burgers ready to be devoured.  When the user clicks the "Eat Me!" button the burgers will then be placed into the "Eaten Burgers" section and there is a message that states "We are sold out of these burgers" Come back another time!"
 
 ## What needs to be completed to finish this project
-
-As of 11/5/2018, I am still working on getting my buttons to function.  I need to figure out how to format the requests to tie into my handlebars page.  My styling is leaving something to be desired, so I need to work on centering, and making the flow better. 
+ 
+I am still working on getting my buttons to function.  I need to figure out how to format the requests to tie into my handlebars page.  My styling is leaving something to be desired, so I need to work on centering, and making the flow better. 
 
 
 ## Screenshots of Site
@@ -37,10 +37,9 @@ As of 11/5/2018, I am still working on getting my buttons to function.  I need t
 
 
 ### Link to Video Walkthrough of Eat Da Burger Site
-(Link will go here)
+
   
 ### Link to Deployed Eat Da Burger site on Heroku
 https://radiant-anchorage-44444.herokuapp.com/
-(This link is not working as of 11/06/2018)
-   
+  
 
